@@ -13,7 +13,7 @@ function setup() {
   let totalHeight = outerPadding * 2 + rows * itemSize + (rows - 1) * padding;
 
   createCanvas(windowWidth, totalHeight);
-  background(255, 248, 220); // Off-white background 
+  background(255, 248, 220); 
   colorMode(RGB, 255);
 
   noStroke();
