@@ -1,11 +1,25 @@
 
+  header {
+    background-color: rgb(228, 24, 24);
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+  }
   body {
+  margin: 0;
+  padding: 0;
   background-color: 255, 248, 220;
-  color: black;
+  color:bisque;
   text-align: center;
   font-family: "Courier Prime", monospace;
   font-weight: 400;
   font-style: normal;
 }
 
-
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(228, 24, 24);
+}
